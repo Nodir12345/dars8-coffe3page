@@ -21,3 +21,7 @@
   padding-left: 80px;
  padding-right: 80px;
 }
+.header-content_link{
+  @include text-style;
+  color: #83888F;
+}
