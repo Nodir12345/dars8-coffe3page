@@ -1,0 +1,18 @@
+@mixin title-style {
+  ont-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+}
+@mixin text-style {
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}

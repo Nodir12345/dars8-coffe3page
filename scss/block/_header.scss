@@ -1,0 +1,23 @@
+.herro_img{
+  max-width: 256px;
+}
+.herro-box{
+ @include flex;
+ justify-content: space-between;
+}
+.header-navigator_block{
+  @include flex;
+
+}
+.header-content_list + .header-content_list{
+  margin-left: 33px;
+}
+.header{
+  padding: 30px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #F2F2F2;
+  padding-left: 80px;
+ padding-right: 80px;
+}
