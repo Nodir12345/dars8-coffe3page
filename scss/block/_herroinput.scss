@@ -1,0 +1,78 @@
+.herroinput__box{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  max-width: 740px;
+}
+input[type="radio"]{
+  -webkit-appearance: none;
+}
+label{
+  max-width: 228px;
+  height: 250px;
+  border-radius: 10px;
+  color: #333D4B;
+  background: #F4F1EB;
+  margin-left: 25px;
+  transition: 1.5s;
+ cursor: pointer;
+}
+.fa{font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  position: absolute;
+  font-family: $font;
+  margin-top: 32px;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 24px;
+  }
+  label>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 172px;
+    color: #333D4B;
+    margin-top: 90px;
+    margin-left: 28px;
+    margin-right: 28px;
+  }
+  input[type="radio"]:checked + label {
+    background-color: $secondary-color;
+    color: #ffffff;
+    box-shadow: 0 15px 45px rgb(24,249,141,0.2);
+    p{
+  color: white;
+    }
+  }
+  .herroinput__title{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin-bottom: 56px;
+    margin-top: 88px;
+    margin-left: 30px;
+  }
+  .active__text{
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+font-family: $font;
+color: #a1a2a5;
+cursor: pointer;
+  }
+  .active__text:active{
+    color: black;
+  }
+  .boxxx{
+    display: flex;
+padding-left: 100px;
+  }
+  .box_active{
+    margin-top: 75px;
+margin-right: 100px;
+  }
+
+   
+

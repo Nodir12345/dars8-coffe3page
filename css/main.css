@@ -544,30 +544,97 @@ span:nth-child(3) {
   display: flex;
 }
 
-.herro_check_radio input[type=radio] {
-  display: none;
-}
-.herro_check_radio label {
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  color: #333D4B;
-  opacity: 0.8;
-  font-family: "Fraunces";
-  border: 2px solid rebeccapurple;
+.herroinput__box {
+  display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 740px;
+}
+
+input[type=radio] {
+  -webkit-appearance: none;
+}
+
+label {
+  max-width: 228px;
+  height: 250px;
+  border-radius: 10px;
+  color: #333D4B;
+  background: #F4F1EB;
+  margin-left: 25px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
   cursor: pointer;
 }
-.herro_check_radio input[type=radio]:checked + label {
+
+.fa {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  position: absolute;
+  font-family: "Fraunces";
+  margin-top: 32px;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 24px;
+}
+
+label > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 172px;
+  color: #333D4B;
+  margin-top: 90px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+input[type=radio]:checked + label {
+  background-color: #0E8784;
+  color: #ffffff;
+  -webkit-box-shadow: 0 15px 45px rgba(24, 249, 141, 0.2);
+          box-shadow: 0 15px 45px rgba(24, 249, 141, 0.2);
+}
+input[type=radio]:checked + label p {
+  color: white;
+}
+
+.herroinput__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+  margin-bottom: 56px;
+  margin-top: 88px;
+  margin-left: 30px;
+}
+
+.active__text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Fraunces";
+  color: #a1a2a5;
+  cursor: pointer;
+}
+
+.active__text:active {
   color: black;
 }
-.herro_check_radio hr {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  border: 1px solid black;
-  opacity: 0.2;
+
+.boxxx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 100px;
+}
+
+.box_active {
+  margin-top: 75px;
+  margin-right: 100px;
 }/*# sourceMappingURL=main.css.map */
