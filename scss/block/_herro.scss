@@ -1,0 +1,31 @@
+.herro_check_radio{
+
+  input[type="radio"]{
+  display: none;
+  }
+  label{
+ 
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+  opacity: 0.8;
+    font-family: $font;
+    border: 2px solid rebeccapurple; 
+    display: flex;
+    border: none;
+    cursor: pointer;
+   
+  }
+  input[type="radio"]:checked + label{
+    color: black;
+  
+  }
+  hr{
+  align-items: flex-start;
+  border: 1px solid black;
+  opacity: 0.2;
+
+  }
+
+}

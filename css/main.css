@@ -542,4 +542,32 @@ span:nth-child(3) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.herro_check_radio input[type=radio] {
+  display: none;
+}
+.herro_check_radio label {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  opacity: 0.8;
+  font-family: "Fraunces";
+  border: 2px solid rebeccapurple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+.herro_check_radio input[type=radio]:checked + label {
+  color: black;
+}
+.herro_check_radio hr {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border: 1px solid black;
+  opacity: 0.2;
 }/*# sourceMappingURL=main.css.map */
