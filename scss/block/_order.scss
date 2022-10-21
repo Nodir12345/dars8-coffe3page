@@ -1,0 +1,43 @@
+.order-box{
+  max-width: 720px;
+  padding: 27px 64px;
+  background-color: $main-color;
+  margin-bottom: 40px;
+  margin-left: 405px;
+  border-radius: 8px;
+  margin-top: 88px;
+}
+.order__title{
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.order__text{
+  font-weight: 900;
+font-size: 24px;
+line-height: 40px;
+font-family: $font;
+color: #FFFFFF;
+
+}
+.change{
+  color: #0E8784;
+
+}
+.button_link{
+  font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+font-family: $font;
+color: #FEFCF7;
+background: #0E8784;
+border-radius: 6px;
+padding: 16px 35px;
+}
+.buttun{
+  text-align: end;
+  padding-right: 158px;
+  margin-bottom: 158px;
+}
