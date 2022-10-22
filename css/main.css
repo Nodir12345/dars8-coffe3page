@@ -583,7 +583,7 @@ label {
   margin-bottom: 24px;
 }
 
-label > p {
+label > .p-span {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -592,6 +592,7 @@ label > p {
   margin-top: 90px;
   margin-left: 28px;
   margin-right: 28px;
+  display: inline-block;
 }
 
 input[type=radio]:checked + label {
@@ -600,7 +601,7 @@ input[type=radio]:checked + label {
   -webkit-box-shadow: 0 15px 45px rgba(24, 249, 141, 0.2);
           box-shadow: 0 15px 45px rgba(24, 249, 141, 0.2);
 }
-input[type=radio]:checked + label p {
+input[type=radio]:checked + label .p-span {
   color: white;
 }
 
