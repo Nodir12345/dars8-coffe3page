@@ -1,7 +1,7 @@
 .create-box{
   padding-left: 85px;
   padding-top: 134px;
-  background-image: url("/img/create__bg.png");
+  background-image: url("./img/create__bg.png");
   background-repeat: no-repeat;
   height: 450px;
   max-width: 1280px;
@@ -21,7 +21,7 @@ background-position-x: center;
 }
 @media screen and (max-width:680px) {
   .create-box{
-    background-image: url("/img/Bitmap_r.jpg");
+    background-image: url("./img/Bitmap_r.jpg");
     background-position-x: center;
     padding-left: 45px;
     padding-top: 125px;
@@ -43,7 +43,7 @@ background-position-x: center;
 
 @media screen and (max-width:466px) {
   .create-box{
-    background-image: url("/img/bitmap_r2.jpg");
+    background-image: url("./img/bitmap_r2.jpg");
     background-position-x: center;
     padding-left: 35px;
     padding-top: 120px;
