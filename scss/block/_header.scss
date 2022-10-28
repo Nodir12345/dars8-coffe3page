@@ -13,15 +13,42 @@
   margin-left: 33px;
 }
 .header{
+  
   padding: 30px 0;
   position: fixed;
   width: 100%;
   top: 0;
   background-color: #F2F2F2;
-  padding-left: 80px;
- padding-right: 80px;
+
+ z-index: 100;
 }
 .header-content_link{
   @include text-style;
   color: #83888F;
+}
+.header_menu{
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("/img/menu.svg");
+background-repeat: no-repeat;
+display: none;
+}
+@media screen and (max-width:810px) {
+  .header-navigator_block{
+    display: none;
+  }
+  .header_menu{
+    display: block;
+    margin-top: 5px;
+    
+  }
+}
+
+@media screen and (max-width:680px) {
+  .herro_img{
+    max-width: 164px;
+    background-size: cover;
+  }
 }

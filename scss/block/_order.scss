@@ -1,9 +1,11 @@
+
 .order-box{
+  margin-left: auto;
+
   max-width: 720px;
   padding: 27px 64px;
   background-color: $main-color;
   margin-bottom: 40px;
-  margin-left: 405px;
   border-radius: 8px;
   margin-top: 88px;
 }
@@ -13,6 +15,7 @@ font-size: 16px;
 line-height: 26px;
 color: #FFFFFF;
 opacity: 0.5;
+
 }
 .order__text{
   font-weight: 900;
@@ -20,7 +23,6 @@ font-size: 24px;
 line-height: 40px;
 font-family: $font;
 color: #FFFFFF;
-
 }
 .change{
   color: #0E8784;
@@ -35,9 +37,32 @@ color: #FEFCF7;
 background: #0E8784;
 border-radius: 6px;
 padding: 16px 35px;
+display: inline-block;
+
 }
-.buttun{
+.buttun1{
   text-align: end;
-  padding-right: 158px;
-  margin-bottom: 158px;
+}
+
+@media screen and (max-width:851px) {
+  .buttun1{
+    text-align: center;
+  }
+  
+  .order-title{
+    margin-left: 14px;
+  }
+
+.order-box{
+
+  padding: 27px 30px;
+}
+}
+
+
+
+@media screen and (max-width:405px){
+ .order__text{
+  max-width: 250px;
+ }
 }

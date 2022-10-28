@@ -8,8 +8,7 @@ input[type="radio"]{
   -webkit-appearance: none;
 }
 label{
-  max-width: 228px;
-  height: 250px;
+  padding-bottom: 84px;
   border-radius: 10px;
   color: #333D4B;
   background: #F4F1EB;
@@ -31,7 +30,7 @@ label{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    max-width: 172px;
+   
     color: #333D4B;
     margin-top: 90px;
     margin-left: 28px;
@@ -76,4 +75,49 @@ margin-right: 100px;
   }
 
    
+.footer__link__img{
+  transition: 1s ease;
+}
 
+
+@media screen and (max-width:1180px) {
+ .box_active{
+  display: none;
+  
+ }
+ }
+ @media screen and (max-width:850px) {
+  .herroinput__box{
+    flex-direction: column;
+  }
+  label{
+    padding: 24px 0;
+    margin-left: 0;
+  }
+
+  span{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  input{
+    margin-bottom: 20px;
+  }
+  .herroinput__title{
+font-size: 24px;
+line-height: 28px;
+
+  }
+
+  .fa_credit-card{
+    font-size: 24px;
+  line-height: 32px;
+  }
+  
+  }
+
+  @media screen and (max-width:690px) {
+.boxxx{
+  padding: 0;
+}
+  }
